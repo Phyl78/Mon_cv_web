@@ -1,0 +1,42 @@
+
+.container
+{
+    background-image: url("imagescv/abstract2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: baseline;
+
+    
+}
+
+
+
+.dessous
+{
+    background-image: url("imagescv/autre.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+
+}
+
+ul
+{
+    list-style: none;
+}
+
+.p1
+{
+    
+}
+
