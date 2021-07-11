@@ -1,5 +1,65 @@
 
-.container
+.nav-1
+{
+    background-image: url("imagescv/abstract2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding: 7px;
+     
+   
+}
+
+
+.nav-1 img 
+{
+    width: 90px;
+    margin-left: 50px;
+}
+
+.nav-1 ul
+{
+    
+   display: flex; 
+   align-items: flex-end;
+   list-style: none;
+   
+
+    
+}
+
+.nav-1 ul li 
+{
+   
+    padding: 10px;
+   /* pour mettre de l'espace entre les listes mettre du margin-orientation  */
+   
+}
+
+.alors
+{
+    margin-left: 70px;
+}
+
+.nav-2
+{
+    background-image: url(imagescv/autre.jpg); width: 100px;
+    background-repeat: no-repeat;
+    background-size: 1270px;
+    width: 300%;
+    display: flex;
+    padding: 5px;
+    
+}
+
+.nav-2 ul
+{
+    list-style: none;
+    margin-left: 860px;
+    align-items: flex-end;
+}
+
+/* .container 
 {
     background-image: url("imagescv/abstract2.jpg");
     background-repeat: no-repeat;
@@ -38,5 +98,5 @@ ul
 .p1
 {
     
-}
+} */
 
