@@ -36,17 +36,12 @@
    
 }
 
-.alors
-{
-    margin-left: 70px;
-}
-
 .nav-2
 {
     background-image: url(imagescv/autre.jpg); width: 100px;
     background-repeat: no-repeat;
     background-size: 1270px;
-    width: 300%;
+    width: 100%;
     display: flex;
     padding: 5px;
     
@@ -57,6 +52,25 @@
     list-style: none;
     margin-left: 860px;
     align-items: flex-end;
+}
+
+.mil1, .mil4, .mil5  
+{
+    text-align: center;
+}
+
+.mil2
+{
+    text-align: center;
+    margin-bottom: 0.5px;
+}
+
+.mil3
+{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 1px;
 }
 
 .containerA
@@ -244,3 +258,50 @@
     height: 150px;
     
 } 
+
+.tout1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 8px;
+    /* justify-content: space-between; */
+
+}
+
+.fond1
+{
+    background-image: url(imagescv/fond.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 40%;
+    height: 150px;
+    align-items:flex-start;
+}
+
+.exp1
+{
+    font-weight: bold;
+    margin-top: 42px;
+    margin-left: 217px;
+}
+
+.logo1
+{
+    background-image: url(imagescv/caceis.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    width: 115px;
+    height: 150px;
+    margin-top: 45px;
+
+
+    
+    
+    
+    
+    
+    0px;
+}
+
