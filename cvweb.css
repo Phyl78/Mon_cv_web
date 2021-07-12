@@ -54,7 +54,7 @@
     align-items: flex-end;
 }
 
-.mil1, .mil4, .mil5  
+.mil1, .mil4, .mil5, .mil6 
 {
     text-align: center;
 }
@@ -259,49 +259,90 @@
     
 } 
 
+/* Ici se trouve l'expérience chez Caceis */
 .tout1
 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 8px;
-    /* justify-content: space-between; */
+    
+    width: 90%;
+    height: 500px;
+    
 
 }
 
-.fond1
+ .fond1 
 {
-    background-image: url(imagescv/fond.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 40%;
+    
+    width: 110%;
     height: 150px;
-    align-items:flex-start;
+    
 }
 
 .exp1
 {
-    font-weight: bold;
-    margin-top: 42px;
-    margin-left: 217px;
+   
+    margin-top: -120px;
+    margin-left: 578px;
 }
 
 .logo1
 {
-    background-image: url(imagescv/caceis.png);
-    background-repeat: no-repeat;
-    background-size: 105px;
-    width: 115px;
-    height: 150px;
-    margin-top: 45px;
+   width: 65%;
+   margin-left: 70px;
+   margin-top:35px;
 
 
-    
-    
-    
-    
-    
-    0px;
 }
 
+/* Ici se trouve le code de l'expérience chez friedland */
+
+.fond2 
+{
+    width: 120%;
+    height: 150px;
+    /* margin-right: 10px; */
+    margin-top: 70px;
+    
+}
+
+.exp2
+{
+   
+    margin-top: -110px;
+    margin-left: 60px; 
+
+}
+
+.logo2
+{
+   width: 65%;
+   margin-left: 70px;
+   margin-top:110px;
+
+}
+
+/* Partie de l'expérience chez Grdf  */
+
+.fond3 
+{
+    
+    width: 110%;
+    height: 150px;
+    margin-top: 40px;
+    
+}
+
+.exp3
+{
+   
+    margin-top: -120px;
+    margin-left: 410px;
+}
+
+.logo3
+{
+   width: 65%;
+   margin-left: 70px;
+   margin-top:75px;
+
+
+}
