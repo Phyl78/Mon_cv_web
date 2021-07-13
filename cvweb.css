@@ -589,3 +589,52 @@ body
     margin-top: 20px;
     margin-left: 15px;
 }
+
+
+
+/* slider  marge entre images */
+.slider .slides img{
+    width: 900px;
+    height: 450px;
+}
+/* placement des images dans le slider */
+.slider{
+    width: 950px;
+    height: 500px;
+    overflow: hidden;
+    margin: 150px auto;
+    margin-top: 0px;
+ 
+}
+/* animation des images */
+.slides{
+    width: calc(900px*5);
+    animation: glisse 15s infinite;
+    
+}
+/* taile espacements des images */
+.slide{
+    float: left; 
+    margin: 17px; 
+    height: 500px;
+    width: 900px;
+} 
+/* reglages de la vitesse defillements des images */
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-913px);
+    }
+    50%{
+        transform: translateX(-1860px);
+    }
+    75%{
+        transform: translateX(-2800px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
