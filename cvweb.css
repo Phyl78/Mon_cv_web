@@ -96,6 +96,8 @@ body
 .mil7 
 {
     text-align: center;
+    margin-left: 30px;
+    margin-top: 830px;
 
 }
 .containerA
@@ -379,7 +381,7 @@ body
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 300px;
+    height: 200px;
     margin-left: 240px;
 }
 
@@ -535,11 +537,15 @@ body
 
 .lc 
 {
-    width: 60%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
     height: 200px;
-    align-content: center;
-    margin-top: 45pc;
+    /* justify-content: space-between; */
+    margin-top: 20px; 
     margin-left:330px;
+    justify-content: center;
+    
     
     
 }
@@ -547,15 +553,39 @@ body
 
 .toeic
 {
-    width: 70px;
-    height: 70px;  
+    background-image: url(imagescv/carre.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    width: 30%;
+    height: 180px; 
+    margin-right: 10px;
     
-     
+    
+   
+    
 }
+
+.logotoeic
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
 .amf
 {
-    width: 70px;
-    height: 70px;
+    background-image: url(imagescv/carre.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    width: 30%;
+    height: 180px;
       
+}
+
+.logoamf
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
