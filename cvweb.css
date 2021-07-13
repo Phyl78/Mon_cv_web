@@ -59,10 +59,19 @@ body
     align-items: flex-end;
 }
 
-.mil1, .mil6 
+.mil6 
 {
     text-align: center;
 }
+
+
+.mil1
+{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
 
 .mil5
 {
@@ -73,14 +82,14 @@ body
 .mil4
 {
     text-align: center;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
 }
 
 .mil2
 {
     text-align: center;
     margin-bottom: 0.5px;
-    border-top: 1px solid black;
+    
     
 }
 
@@ -90,6 +99,8 @@ body
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 1px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
     
 }
 
@@ -295,6 +306,7 @@ body
     width: 90%;
     height: 500px;
     
+    
 
 }
 
@@ -383,6 +395,7 @@ body
     width: 100%;
     height: 200px;
     margin-left: 240px;
+    
 }
 
 .left1
@@ -405,6 +418,7 @@ body
     background-image: url(imagescv/logo_la_manu_formation_400-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 200px;
+    background-position: center;
     width: 35%;
     border-left: 2px solid black;
 }
@@ -545,6 +559,7 @@ body
     margin-top: 20px; 
     margin-left:330px;
     justify-content: center;
+    border-bottom: 2px solid black;
     
     
     
@@ -636,5 +651,13 @@ body
     100%{
         transform: translateX(0);
     }
+
+}
+
+.contact
+{
+    background-image: url(imagescv/carre.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
 
 }
