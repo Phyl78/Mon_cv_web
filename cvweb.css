@@ -660,8 +660,91 @@ body
     background-image: url(imagescv/carre.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-   
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 5px;
+    width: 100%;
+    padding: 20px;
     /* background-position: center; */
 
 }
+.myform1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.titre
+{
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myform2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.myform3
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+/* A voir ce que je peux en faire */
+.borde
+{
+    margin-left: 20px;
+}
+
+.border
+{
+    margin-left: 10px;
+}
+
+/* Début du footer */
+
+.footer ul
+{
+    background-image: url(imagescv/abstract2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    list-style: none;
+    
+
+    
+
+}
+
+.mots
+{
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+    margin: 20px;
+    
+    
+}
+
+.copy
+{
+    margin-top: 2px;
+    text-align: center;
+}
+
