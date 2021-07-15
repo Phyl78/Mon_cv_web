@@ -28,15 +28,16 @@ body
    display: flex; 
    align-items: flex-end;
    list-style: none;
-   
-
+   margin-left: 150px;
     
 }
+
 
 .nav-1 ul li 
 {
    
-    padding: 10px;
+    padding: 15px;
+    justify-content: space-between;
    /* pour mettre de l'espace entre les listes mettre du margin-orientation  */
    
 }
@@ -658,6 +659,9 @@ body
 {
     background-image: url(imagescv/carre.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+   
     /* background-position: center; */
 
 }
