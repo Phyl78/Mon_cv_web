@@ -677,7 +677,7 @@ body
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 10px;
 }
 
@@ -686,35 +686,102 @@ body
     padding-bottom: 50px;
     text-align: center;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .myform2
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* align-items: center; */
     padding-top: 10px;
 }
 
 .myform3
 {
     display: flex;
-    flex-direction: row;
-    padding-top: 10px;
+    margin-left: 47px;
+    padding-top: 20px;
 }
 
 /* A voir ce que je peux en faire */
 .borde
 {
-    margin-left: 20px;
+    margin-right: 100px;
+    
 }
 
-.border
+.border1
 {
-    margin-left: 10px;
+    
+    margin-left: 15px; 
 }
 
-/* Début du footer */
+.lab1
+{
+    margin-right: -90px;
+}
+
+.lab2
+{
+    margin-right: -40px;
+}
+
+.border2
+{
+    margin-left: -55px;  
+}
+
+.border3
+{
+    margin-left: -80px;  
+}
+
+
+.borde4
+{
+    margin-right: 290px;
+    margin-left: -115px;
+}
+
+.border 
+{
+    margin-left: 15px;
+}
+
+
+
+
+.obj1
+{
+    margin-right: 140px;
+    margin-left: -375px;
+    padding-left: 30px;
+}
+
+.obj2
+{
+    margin-left: -230px;
+    
+}
+
+.ob 
+{
+    margin-left: -20px;
+}
+
+.obj3
+{
+    margin-right: -120px;
+}
+
+.border6
+{
+    margin-left: -90px;
+    
+}
+
 
 .footer ul
 {
@@ -724,13 +791,11 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 90px;
-    list-style: none;
-    
-
-    
+    height: 120px;
+    list-style: none!important;
 
 }
+
 
 .mots
 {
@@ -739,6 +804,8 @@ body
     margin-top: 3px;
     margin: 20px;
     
+
+    
     
 }
 
@@ -746,5 +813,6 @@ body
 {
     margin-top: 2px;
     text-align: center;
+    
 }
 
