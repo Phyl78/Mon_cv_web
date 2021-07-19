@@ -1,7 +1,7 @@
 body
 {
     width: 100%;
-    height: 5000px;
+    height: 2970px;
 }
 
 .nav-1
@@ -16,10 +16,20 @@ body
 }
 
 
-.nav-1 img 
+.maphoto 
 {
-    width: 90px;
+    
     margin-left: 50px;
+    position: absolute;
+    margin-top: 42px;
+    
+    
+}
+
+.maphoto img
+{
+    border-radius: 45px;
+
 }
 
 .nav-1 ul
@@ -28,7 +38,8 @@ body
    display: flex; 
    align-items: flex-end;
    list-style: none;
-   margin-left: 150px;
+   margin-left: 250px;
+    
     
 }
 
@@ -36,8 +47,9 @@ body
 .nav-1 ul li 
 {
    
-    padding: 15px;
+    padding: 19px;
     justify-content: space-between;
+    margin-bottom: 2px;
    /* pour mettre de l'espace entre les listes mettre du margin-orientation  */
    
 }
@@ -49,20 +61,37 @@ body
     background-size: 1270px;
     width: 100%;
     display: flex;
-    padding: 5px;
+    padding-bottom: 1px;
     
 }
 
 .nav-2 ul
 {
     list-style: none;
-    margin-left: 860px;
+    margin-left: 850px;
     align-items: flex-end;
 }
+
+.liste1
+{
+    position: relative; 
+    margin-bottom: 2px;
+}
+
+.alors1
+{
+    margin-bottom: 2px;
+}
+
 
 .mil6 
 {
     text-align: center;
+    margin-left: 90px;
+    font-size: 20px; 
+    margin-right: 90px;
+    border-top: 2px solid black;
+    
 }
 
 
@@ -71,6 +100,7 @@ body
     text-align: center;
     border-bottom: 1px solid black;
     padding-bottom: 15px;
+    font-size: 20px; 
 }
 
 
@@ -78,18 +108,21 @@ body
 {
     text-align: center;
     margin-top: 5px;
+    font-size: 20px; 
 }
 
 .mil4
 {
     text-align: center;
     /* border-top: 1px solid black; */
+    font-size: 20px; 
 }
 
 .mil2
 {
     text-align: center;
     margin-bottom: 0.5px;
+    font-size: 20px; 
     
     
 }
@@ -102,14 +135,27 @@ body
     margin-top: 1px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+    font-size: 20px; 
     
 }
 
 .mil7 
 {
     text-align: center;
-    margin-left: 30px;
+    margin-left: 330px;
+    margin-right: 308px;
     margin-top: 830px;
+    font-size: 20px; 
+    border-top: 2px solid black;
+
+}
+
+.mil8
+{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px; 
 
 }
 .containerA
@@ -154,8 +200,9 @@ body
    
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
     margin-left: 40px;
+    border-radius: 40px;
    
     
    
@@ -166,7 +213,10 @@ body
     
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
+   
+
 }
 
 .css3
@@ -174,8 +224,8 @@ body
     
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
-    
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
 }
 
 .boot
@@ -183,8 +233,9 @@ body
     
     width: 150px;
     height: 150px;  
-    background-color: rgb(189, 184, 184);
-    margin-left: 40px;
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
+    margin-left: 5px;
 }
 
 .word
@@ -192,7 +243,10 @@ body
    
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
 
 .xd
@@ -200,7 +254,9 @@ body
     
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
+    margin-left:39px ;
 }
 
 
@@ -209,7 +265,8 @@ body
    
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
     margin-left: 40px;
 }
 
@@ -219,8 +276,8 @@ body
    
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
-    
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
 }
 
 
@@ -230,75 +287,179 @@ body
    
     width: 150px;
     height: 150px;
-    background-color: rgb(189, 184, 184);
+    background-color: rgba(189, 184, 184, 0.308);
+    border-radius: 40px;
+    margin-right: -3px;
 }
 
  .space1 
 {
     background-color: rgba(255, 255, 255, 0)!important;
     width: 150px;
-    height: 150px;
-    
+    height: 120px;
+    padding-top: 25px;
+    transition: 0.5s ease-in-out;
     
 } 
+
+.space1:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
+
 
 .space2 
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    margin: 20px 25px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
   
 } 
+
+.space2:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
+
 
 .space3 
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
-  
+    width: 119px;
+    height: 110px;
+    margin: 12px 16px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
+
 } 
+
+.space3:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
 
 .space4
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 119px;
+    height: 110px;
+    margin: 12px 16px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
   
 } 
+
+.space4:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
 
 .space5 
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 112px;
+    height: 110px;
+    margin: 12px 18px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
     
 } 
+
+.space5:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
 
 
 .space6 
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 110px;
+    margin: 12px -4px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
     
 } 
+
+.space6:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
 
 .space7
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 100px;
+    margin: 12px -13px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
     
 } 
+
+.space7:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
 
 
 .space8
 {
     background-color: rgba(255, 255, 255, 0)!important;
-    width: 150px;
-    height: 150px;
+    width: 117px;
+    height: 110px;
+    margin: 12px 15px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
     
 } 
+
+.space8:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
+.space9
+{
+    background-color: rgba(255, 255, 255, 0)!important;
+    width: 135px;
+    height: 110px;
+    margin: 12px 9px;
+    padding-top: 17px;
+    transition: 0.5s ease-in-out;
+    
+} 
+
+.space9:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+
  
 /* Ici se trouve l'expérience chez Caceis */
 .tout1
@@ -306,6 +467,8 @@ body
     
     width: 90%;
     height: 500px;
+    
+    
     
     
 
@@ -396,6 +559,7 @@ body
     width: 100%;
     height: 200px;
     margin-left: 240px;
+    
     
 }
 
@@ -558,7 +722,7 @@ body
     height: 200px;
     /* justify-content: space-between; */
     margin-top: 20px; 
-    margin-left:330px;
+    margin-left:343px;
     justify-content: center;
     border-bottom: 2px solid black;
     
@@ -735,7 +899,8 @@ body
 
 .border3
 {
-    margin-left: -80px;  
+    margin-left: -80px; 
+     
 }
 
 
@@ -782,16 +947,20 @@ body
     
 }
 
-
-.footer ul
+footer
 {
     background-image: url(imagescv/abstract2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.footer ul
+{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 120px;
+    /* height: 120px; */
     list-style: none!important;
 
 }
@@ -801,9 +970,8 @@ body
 {
     color: white;
     font-weight: bold;
-    margin-top: 3px;
     margin: 20px;
-    
+    list-style: none!important;
 
     
     
@@ -812,6 +980,7 @@ body
 .copy
 {
     margin-top: 2px;
+    color: white;
     text-align: center;
     
 }
