@@ -1,7 +1,7 @@
 body
 {
-    width: 100%;
-    height: 2970px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .nav-1
@@ -12,7 +12,6 @@ body
     display: flex;
     padding: 7px;
      
-   
 }
 
 
@@ -38,9 +37,8 @@ body
    display: flex; 
    align-items: flex-end;
    list-style: none;
-   margin-left: 250px;
-    
-    
+   margin-left: 150px;
+
 }
 
 
@@ -62,20 +60,23 @@ body
     width: 100%;
     display: flex;
     padding-bottom: 1px;
+    margin: 0px auto;
     
 }
 
 .nav-2 ul
 {
     list-style: none;
-    margin-left: 850px;
-    align-items: flex-end;
+    margin-left: 400px;
+    width: 40%;
+    
 }
 
 .liste1
 {
     position: relative; 
     margin-bottom: 2px;
+    margin: 1px auto;
 }
 
 .alors1
@@ -131,18 +132,19 @@ body
 {
     text-align: center;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 25px; 
+    /* margin: auto; */
     margin-top: 1px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
-    font-size: 20px; 
+    font-size: 16px; 
     
 }
 
 .mil7 
 {
     text-align: center;
-    margin-left: 330px;
+    margin-left: 100px;
     margin-right: 308px;
     margin-top: 830px;
     font-size: 20px; 
@@ -153,44 +155,107 @@ body
 .mil8
 {
     text-align: center;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
     font-size: 20px; 
 
 }
 .containerA
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;  
     justify-content: space-between;
-     width: 67%;
-     height: 200px;
-    margin-left: 180px;
-   
+    width: 60%;
+    margin: auto;
+        
 }
+ 
+#icon-menu{
+    visibility: hidden;
+}
+
+#icon-menu2{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:768px){
+
+
+    #icon-menu{
+        visibility: visible;
+        color: white;
+        margin-left: 450px;
+        
+    }
+
+    #icon-menu2{
+        visibility: visible;
+        color: black;
+        margin-left: 450px;
+    }
+
+    .containerA {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .containerB {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .containerC {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .liste1{
+
+        visibility: hidden;
+    } 
+
+    .nav-2 ul{
+
+        visibility: hidden;
+        
+    } 
+
+    /* .liste1 {
+
+        display: none;
+    } */
+/* 
+    .fas .fa-bars{
+         display: add;
+         
+    } */
+
+    
+}
+
 
 .containerB
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;  
     justify-content: space-between;
-     width: 67%;
-     height: 200px;
-     margin-left: 180px;
+    width: 60%;
+    margin: auto;
 }
 
 
 .containerC
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;  
     justify-content: space-between;
-    width: 67%;
-    height: 200px;
-    margin-left: 180px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
     border-bottom: 2px solid black;
     
 }
@@ -198,98 +263,75 @@ body
 .git
 {
    
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
-    margin-left: 40px;
+    margin: 0px auto;
     border-radius: 40px;
-   
-    
+    padding: 5px 5px;
    
 }
 
 .html5
 {
-    
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
+    margin: 0px auto;
+    padding: 5px 5px;
    
-
 }
 
 .css3
 {
-    
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
+    margin: 0px auto;
+    padding: 5px 5px;
 }
 
 .boot
 {
-    
-    width: 150px;
-    height: 150px;  
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
-    margin-left: 5px;
+    margin: 0px auto;
+
 }
 
 .word
 {
-   
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
-    margin-left: 10px;
-    margin-right: 0px;
+    margin: 0px auto;
 }
 
 .xd
 {
-    
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
-    margin-left:39px ;
+    margin: 0px auto;
 }
 
 
 .jsc
 {
-   
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
-    margin-left: 40px;
+    margin: 0px auto;
+    
 }
 
 
 .php
 {
-   
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
+    margin: 0px auto;
 }
 
 
 .vba
 {
- 
-   
-    width: 150px;
-    height: 150px;
     background-color: rgba(189, 184, 184, 0.308);
     border-radius: 40px;
-    margin-right: -3px;
+    margin: 0px auto;
 }
 
  .space1 
@@ -466,6 +508,7 @@ body
 {
     
     width: 90%;
+    margin: auto;
     height: 500px;
     
     
@@ -558,7 +601,7 @@ body
     flex-wrap: wrap;
     width: 100%;
     height: 200px;
-    margin-left: 240px;
+    margin-left: 100px;
     
     
 }
@@ -722,7 +765,7 @@ body
     height: 200px;
     /* justify-content: space-between; */
     margin-top: 20px; 
-    margin-left:343px;
+    margin-left:100px;
     justify-content: center;
     border-bottom: 2px solid black;
     
@@ -779,10 +822,10 @@ body
 }
 /* placement des images dans le slider */
 .slider{
-    width: 950px;
+    width: 450px;
     height: 500px;
     overflow: hidden;
-    margin: 150px auto;
+    margin: 100px auto;
     margin-top: 0px;
  
 }
@@ -799,6 +842,13 @@ body
     height: 500px;
     width: 900px;
 } 
+
+.row{
+
+    margin: auto;
+    align-items: center;
+}
+
 /* reglages de la vitesse defillements des images */
 @keyframes glisse{
     0%{
@@ -832,7 +882,7 @@ body
     padding: 30px;
     padding-top: 5px;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     /* background-position: center; */
 
 }
