@@ -507,23 +507,46 @@ body
 .tout1
 {
     
-    width: 90%;
-    margin: auto;
-    height: 500px;
-    
-    
-    
-    
+    width: 80%;
+    margin: 20px auto;
+   
 
 }
 
  .fond1 
 {
-    
     width: 110%;
     height: 150px;
+}
+
+.col1{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: right;
+    background-position-y:center;
+    
     
 }
+
+.col2{
+    background-image: url("imagescv/fondreverse.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x:left;
+    background-position-y: center;
+    
+}
+
+.col3{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: auto;
+    
+}
+
 
 .exp1
 {
@@ -534,12 +557,12 @@ body
 
 .logo1
 {
-   width: 65%;
+   width: 50%;
    margin-left: 70px;
-   margin-top:35px;
-
-
+   
 }
+
+
 
 /* Ici se trouve le code de l'expérience chez friedland */
 
@@ -562,9 +585,9 @@ body
 
 .logo2
 {
-   width: 65%;
+   width: 50%;
    margin-left: 70px;
-   margin-top:110px;
+   /* margin-top:0px; */
 
 }
 
@@ -588,9 +611,9 @@ body
 
 .logo3
 {
-   width: 65%;
+   width: 50%;
    margin-left: 70px;
-   margin-top:75px;
+   margin-top:20px;
 
 }
 
@@ -845,8 +868,10 @@ body
 
 .row{
 
-    margin: auto;
-    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+   
 }
 
 /* reglages de la vitesse defillements des images */
