@@ -154,9 +154,8 @@ body
 .mil7 
 {
     text-align: center;
-    margin-left: 310px;
-    margin-right: 308px;
-    margin-top: 80px;
+    width: 50%;
+    margin: auto;
     font-size: 20px; 
     border-top: 2px solid black;
 
