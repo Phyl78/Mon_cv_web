@@ -62,7 +62,7 @@ body
 {
     background-image: url(imagescv/autre.jpg); width: 100px;
     background-repeat: no-repeat;
-    background-size: 1300px;
+    background-size: 1500px;
     width: 100%;
     display: flex;
     padding-bottom: 1px;
@@ -669,7 +669,8 @@ body
     height: 10vw;
     min-height: 150px;
     min-width: 450px;
-    margin: auto 270px;
+    margin: auto ;
+    /* border: 2px solid green; */
     
   
 }
@@ -679,18 +680,20 @@ body
     min-width: 300px;
     min-height: 150px;
     height: 14vw;
-    margin-left: 80px;
+    margin-left: 10px;
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
     background-size: 300px;
     border-right: 2px solid black;
+        
     
 }
 
 .enfant2{
     min-width: 150px;
     height: 14vw;
-    margin-left: 50px;
+    margin-left: 80px;
+
     
 }
 
@@ -701,7 +704,7 @@ body
     height: 10vw;
     min-height: 150px;
     min-width: 450px;
-    margin: 60px 270px;
+    margin: 60px auto;
    
 
   
@@ -711,7 +714,8 @@ body
 
     min-width: 150px;
     height: 14vw;
-    margin-left: 140px;
+    margin-left: 85px;
+    
     
     
 }
@@ -720,7 +724,7 @@ body
     min-width: 300px;
     min-height: 150px;
     height: 14vw;
-    margin-left: 110px;
+    margin-left: 120px;
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
     background-size: 300px;
@@ -737,7 +741,7 @@ body
     height: 10vw;
     min-height: 150px;
     min-width: 450px;
-    margin: auto 270px;
+    margin: auto ;
   
 }
 
@@ -746,7 +750,7 @@ body
     min-width: 300px;
     min-height: 150px;
     height: 14vw;
-    margin-left: 80px;
+    margin-left: 10px;
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
     background-size: 300px;
@@ -757,7 +761,7 @@ body
 .enfant6{
     min-width: 150px;
     height: 14vw;
-    margin-left: 10px;
+    margin-left: 30px;
     
 }
 
@@ -770,15 +774,18 @@ body
     height: 10vw;
     min-height: 150px;
     min-width: 450px;
-    margin: 60px 270px;
+    margin: 60px auto;
+    
   
 }
 
 .enfant7 {
 
-    min-width: 150px;
+    min-width: 100px;
     height: 10vw;
-    margin-left: 100px;
+    /* margin-left: 10px; */
+    /* margin-left: 5px; */
+   
     
     
 }
@@ -787,11 +794,12 @@ body
     min-width: 280px;
     min-height: 150px;
     height: 14vw;
-    margin-left: 150px;
+    margin-left: 225px;
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
     background-size: 300px;
     border-left: 2px solid black;
+   
     
 }
  
