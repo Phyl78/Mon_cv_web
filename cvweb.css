@@ -189,19 +189,15 @@ body
 
 @media screen and (max-width:598px) {
 
-    .footer{
-        background-image: url(imagescv/abstract2.jpg);
-        background-repeat: no-repeat;
-        background-size: 80%;
-        height: 100px;
-       
-        /* padding-top: 20px; */
-    }
+    
     
     .titre{
 
         height:300px ;
         min-height: 290px;
+        
+        
+        
     }
 }
 
@@ -562,6 +558,82 @@ body
     height: 150px;
 }
 
+#cron{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+    max-width: 662px;
+    min-width: 640px;
+    /* border: 2px solid yellow; */
+    height: 450px;
+   
+
+}
+
+.exp1{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:center;
+    height: 170px;
+    width: 363px;
+    background-size: 400px;
+    /* margin-right: 10px; */
+    
+}
+
+.im1{
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 170px;
+}
+
+.im2{
+    margin:auto;
+    /* border: 2px solid orange; */
+ 
+}
+
+.im3{
+    margin: auto ; 
+    height: 70px;
+    width: 180px;
+    
+ 
+}
+
+.exp2{
+    /* border: 2px solid green; */
+    background-image: url("imagescv/fondreverse.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x:left;
+    background-position-y:center;
+    height: 120px;
+    width: 324px;
+    /* margin-left: 90px; */
+}
+
+.exp3{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:center;
+    height: 170px;
+    width: 363px;
+    background-size: 400px;
+    /* border: 2px solid firebrick; */
+}
+
+.descr{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
 .cron1{
 
     display: flex;
@@ -670,147 +742,86 @@ body
     
 }
 
-.parent1{
-    /* border: 1px solid red; */
+#parent{
     display: flex;
-    width: 50vw;
-    height: 10vw;
-    min-height: 150px;
-    min-width: 450px;
-    margin: auto ;
-    /* border: 2px solid green; */
-    
-  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+    margin: auto;
+    max-width: 662px;
+    min-width: 640px; 
+    /* border: 2px solid red; */
 }
 
-.enfant1 {
 
-    min-width: 300px;
-    min-height: 150px;
-    height: 14vw;
-    margin-left: 10px;
+.child1 {
+
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
-    background-size: 300px;
+    height: 170px;
+    width: 310px;
     border-right: 2px solid black;
-        
-    
-}
-
-.enfant2{
-    min-width: 150px;
-    height: 14vw;
-    margin-left: 80px;
-
-    
-}
-
-.parent2{
-    /* border: 1px solid red; */
-    display: flex;
-    width: 50vw;
-    height: 10vw;
-    min-height: 150px;
-    min-width: 450px;
-    margin: 60px auto;
    
-
-  
 }
 
-.enfant3 {
-
-    min-width: 150px;
-    height: 14vw;
-    margin-left: 85px;
-    
-    
-    
+.child2{
+ margin: auto;
+ width: 180px;
+ height: 220px;
+ /* border: 2px solid red; */
 }
 
-.enfant4{
-    min-width: 300px;
-    min-height: 150px;
-    height: 14vw;
-    margin-left: 120px;
+.child3{
+    margin: auto;
+    width: 180px;
+    height: 220px;
+
+   
+}
+
+.child4{
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
-    background-size: 300px;
+    margin-left: auto;
+    width: 310px;
+    height: 160px;
     border-left: 2px solid black;
-    
 }
 
-/* new parents */
-
-.parent3{
-    /* border: 1px solid red; */
-    display: flex;
-    width: 50vw;
-    height: 10vw;
-    min-height: 150px;
-    min-width: 450px;
-    margin: auto ;
-  
-}
-
-.enfant5 {
-
-    min-width: 300px;
-    min-height: 150px;
-    height: 14vw;
-    margin-left: 10px;
+.child5{
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
-    background-size: 300px;
+    width: 310px;
+    height: 160px;
     border-right: 2px solid black;
+}
+
+.child6{
+    margin: auto;
+    height: 125px;
+    width:180px ;
+}
+
+.child7{
+    margin: 75px 15px;
+    height: 48px;
+    width:280px
+
     
 }
 
-.enfant6{
-    min-width: 150px;
-    height: 14vw;
-    margin-left: 30px;
-    
-}
-
-/* new parents 2 */
-
-.parent4{
-    /* border: 1px solid red; */
-    display: flex;
-    width: 50vw;
-    height: 10vw;
-    min-height: 150px;
-    min-width: 450px;
-    margin: 60px auto;
-    
-  
-}
-
-.enfant7 {
-
-    min-width: 100px;
-    height: 10vw;
-    /* margin-left: 10px; */
-    /* margin-left: 5px; */
-   
-    
-    
-}
-
-.enfant8{
-    min-width: 280px;
-    min-height: 150px;
-    height: 14vw;
-    margin-left: 225px;
+.child8{
     background-image: url("imagescv/carre.png");
     background-repeat: no-repeat;
-    background-size: 300px;
+    width: 310px;
+    height: 160px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     border-left: 2px solid black;
-   
-    
 }
- 
+
+
 
 .m22{
     background-image: url("imagescv/carre.png");
@@ -870,12 +881,7 @@ body
     width: 315px;
 }
 
-.exp1
-{
-   
-    margin-top: -120px;
-    margin-left: 578px;
-}
+
 
 .logo1
 {
@@ -898,13 +904,7 @@ body
     
 }
 
-.exp2
-{
-   
-    margin-top: -110px;
-    margin-left: 60px; 
 
-}
 
 .logo2
 {
@@ -925,12 +925,6 @@ body
     
 }
 
-.exp3
-{
-   
-    margin-top: -120px;
-    margin-left: 410px;
-}
 
 .logo3
 {
@@ -1183,12 +1177,12 @@ body
 
 /* slider  marge entre images */
 .slider .slides img{
-    width: 700px;
+    width: 600px;
     height: 450px;
 }
 /* placement des images dans le slider */
 .slider{
-    width: 700px;
+    width: 600px;
     height: 500px;
     overflow: hidden;
     margin: 100px auto;
@@ -1208,20 +1202,6 @@ body
     height: 500px;
     width: 900px;
 } 
-
-/* .row{
-
-    /* width: 100%; */
-    /* min-width: 800px; */
-    /* justify-content: center;
-    border: 2px solid blue;
-
-    width: px;
-    height: 8vw;
-    min-width: 200px;
-    min-height: 120px;
-   
-} */ 
 
 
 
@@ -1251,29 +1231,18 @@ body
     background-image: url(imagescv/carre.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: fixed;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    /* padding: 30px; */
-    /* padding-top: 10px; */
     width: 100%;
-    /* min-width:400px ; */
+    min-width: 640px;
     height: 390px;
-    min-height: 300px;
-    
-    
+    min-height: 300px;    
 
 }
-/* .myform1
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10px;
-} */
+
 
 .titre
 {
@@ -1283,24 +1252,15 @@ body
     font-size: 20px;
     justify-content: center;
     margin: auto;
-    /* width: 100%; */
-    min-width: 400px;
+    min-width: 640px;
     height: 360px;
     width: 80%;
-    /* height: 100%; */
-    /* height: 20vw; */
-    /* min-height: 450px; */
+    
+    
     
     
 }
 
-/* .myform2
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 10px;
-} */
 
 .myform3
 {
@@ -1323,15 +1283,7 @@ body
         min-height: 30px;
     } */
 
-    /* .myform1{
-        display: flex;
-        flex-direction: column;
-    } */
-
-    /* .myform2{
-        display: flex;
-        flex-direction: column;
-    } */
+   
     
     .myform3{
         display: flex;
@@ -1425,21 +1377,22 @@ body
 {
     background-image: url(imagescv/abstract2.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 160px;
+    background-size: 1400px;
+    max-height:200px;
+    min-width: 640px;
+    
 }
 
 .footer .social{
 
     text-align: center;
-    padding-bottom:20px;
-    padding-top: 35px;
+    padding-bottom:30px;
+    padding-top: 65px;
     
 }
 
 .footer .social a {
     font-size: 28px;
-    border : 1px solid aqua;
     width: 40px;
     height: 40px;
     line-height: 30px;
@@ -1448,6 +1401,9 @@ body
     border-radius: 50%;
     margin: 0 8px; 
     opacity: 0.75;
+    padding-bottom: 10px;
+    
+   
 }
 
 .footer .social a:hover {
@@ -1471,7 +1427,8 @@ body
     color: inherit;
     text-decoration: none;
     justify-content: center;
-
+    
+    
 }
 
 .footer ul li {
@@ -1485,25 +1442,16 @@ body
 {
     color: white;
     font-weight: bold;
-    padding: 5px 5px 5px 5px;
     list-style: none!important;
     height: 20px;
 
 } 
 
-.list{
 
-    width: 80%;
-    margin: auto;
-    height: 10px;
-    margin-bottom: 50px;
-
-
-}
 
 .copy
 {
-    margin-top: 15px;
+    padding-bottom: 35px;
     color: white;
     text-align: center;
     
