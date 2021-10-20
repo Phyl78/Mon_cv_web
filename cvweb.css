@@ -90,11 +90,19 @@ body
     margin: 1px auto;
 }
 
-.alors1
+.alors1, .alors2, .alors3, .alors4, .alors5
 {
     margin-bottom: 2px;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+    
 }
 
+.alors1:hover, .alors2:hover, .alors3:hover, .alors4:hover, .alors5:hover{
+    background: #470202;
+    /* color: mediumslateblue */
+    
+}
 
 .mil6 
 {
@@ -112,7 +120,7 @@ body
     text-align: center;
     border-bottom: 1.5px solid black;
     padding-bottom: 15px;
-    font-size: 20px; 
+    /* font-size: 20px;  */
 }
 
 
@@ -1255,8 +1263,6 @@ body
     min-width: 640px;
     height: 360px;
     width: 80%;
-    
-    
     
     
 }

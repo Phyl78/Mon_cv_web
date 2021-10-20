@@ -547,3 +547,66 @@ h2{
     height: 120px;
     margin-top: 30px;
 }
+
+
+.obj{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.obj1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-betwee; */
+    width: 90%;
+    margin: auto;
+    /* justify-content: center; */
+   
+}
+
+.combi{
+    padding: 10px 10px;
+    margin: auto 20px;
+    background-color: grey;
+
+}
+
+.maquette{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.landing{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.site{
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.combi1{
+    height: 35vw;
+    width: 25vw;
+    margin: auto;
+}
+
+.page {
+    margin: auto 400px;
+    width: 400px;
+    height: 350px;
+}
+
+.const{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
