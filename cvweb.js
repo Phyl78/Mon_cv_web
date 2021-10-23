@@ -144,7 +144,7 @@ const fas3 = document.querySelectorAll('.fa3')
 const TL5 = new TimelineMax({paused:false})
 
 TL5
-.from (fas1,{opacity:0, x:-100})
+.from (fas1,1,{opacity:0, x:-100})
 .from (fas2,1,{opacity:0, x:100})
 .from (fas3, 1,{opacity:0, x:-100})
 
