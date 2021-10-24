@@ -754,3 +754,190 @@ main {
 .part2 ul li a {
     text-decoration: none;
 }
+
+
+.experiences_professionnelles{
+    
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+
+.box1, .box2, .box3{
+    /* border: 2px solid green; */
+    height:250px ;
+    padding-top: 25px;
+
+}
+
+
+#cron{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    width: 70%;
+    max-width: 662px;
+    min-width: 640px;
+    /* border: 2px solid yellow; */
+    height: 450px;
+   
+
+}
+
+.exp1{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:center;
+    height: 170px;
+    width: 363px;
+    background-size: 400px;
+    /* margin-right: 10px; */
+    
+}
+
+.im1{
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 170px;
+  
+}
+
+.im2{
+    margin:auto;
+    /* border: 2px solid orange; */
+ 
+}
+
+.im3{
+    margin: auto ; 
+    height: 70px;
+    width: 180px;
+    
+ 
+}
+
+.exp2{
+    /* border: 2px solid green; */
+    background-image: url("imagescv/fondreverse.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x:left;
+    background-position-y:center;
+    height: 120px;
+    width: 324px;
+    /* margin-left: 90px; */
+}
+
+.exp3{
+    background-image: url("imagescv/fond.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:center;
+    height: 170px;
+    width: 363px;
+    background-size: 400px;
+    /* border: 2px solid firebrick; */
+}
+
+/* page formation et langue */
+
+.study1, .study2, .study3{
+    /* border: 2px solid green; */
+    height:250px ;
+    padding-top: 25px;
+
+}
+
+#parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+    margin: auto;
+    max-width: 662px;
+    min-width: 640px; 
+    /* border: 2px solid red; */
+}
+
+
+.child1 {
+
+    background-image: url("imagescv/carre.png");
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 310px;
+    border-right: 2px solid black;
+   
+}
+
+.child2{
+ margin: auto;
+ width: 180px;
+ height: 220px;
+ /* border: 2px solid red; */
+}
+
+.child3{
+    margin: auto;
+    width: 180px;
+    height: 220px;
+   
+}
+
+.child4{
+    background-image: url("imagescv/carre.png");
+    background-repeat: no-repeat;
+    margin-left: auto;
+    width: 310px;
+    height: 160px;
+    border-left: 2px solid black;
+}
+
+.child5{
+    background-image: url("imagescv/carre.png");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 160px;
+    border-right: 2px solid black;
+}
+
+.child6{
+    margin: auto;
+    height: 125px;
+    width:180px ;
+}
+
+.child7{
+    margin: 75px 15px;
+    height: 48px;
+    width:280px
+ 
+}
+
+.child8{
+    background-image: url("imagescv/carre.png");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 160px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-left: 2px solid black;
+}
+
+.etude{
+    
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}

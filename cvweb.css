@@ -646,32 +646,7 @@ body
     padding-top: 30px;
 }
 
-.cron1{
 
-    display: flex;
-    margin: auto;
-    justify-content:center;
-    width: 750px;
-    min-width: 450px;
-}
-
-.cron2{
-
-    display: flex;
-    margin: auto;
-    justify-content:center;
-    width: 750px;
-    min-width: 450px;
-}
-
-.cron3{
-
-    display: flex;
-    margin: auto;
-    justify-content:center;
-    width: 750px;
-    min-width: 450px;
-}
 
 .rep{
     background-image: url("imagescv/fond.png");
