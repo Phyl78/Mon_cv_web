@@ -1,3 +1,16 @@
+
+const retour = document.querySelector(".RetourEnHaut");
+
+window.addEventListener("scroll", ()=>{
+
+    if (window.pageYOffset>100){
+        retour.classList.add("active");
+    } else {
+        retour.classList.remove("active");
+
+    }
+})
+
 const fas1 = document.querySelector('.fa1')
 const fas2 = document.querySelector('.fa2')
 const fas3 = document.querySelector('.fa3')
@@ -54,3 +67,94 @@ TL3
 .from (iae,1,{scale:0},'-=0.4')
 .from (uca,1,{scale:0},'-=0.4')
 .from (carte7,1,{opacity:0, x:100},'-=0.4')
+
+
+// page compétences
+const txtAnim=document.querySelector('h5');
+
+ new Typewriter( txtAnim, {
+    //  loop:true,
+     deleteSpeed: 20
+ })
+
+.changeDelay(20)
+.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.pauseFor(1300)
+.typeString('<span style="font-family:monospace;">j\'ai fait ici une liste non exhaustive de mes compétences  </br> sur des langages de développement web</span>')
+.pauseFor(800)
+.typeString('<span style="font-family:monospace;"> en ne reprenant que les plus importantes.</span>')
+.start()
+
+
+// page formation
+
+const txtAnim2=document.querySelector('.page_formation');
+
+ new Typewriter( txtAnim2, {
+    //  loop:true,
+     deleteSpeed: 20
+ })
+
+.changeDelay(20)
+.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.pauseFor(1300)
+.typeString('<span style="font-family:monospace;">j\'ai un profil aussi bien compétent en développement web  </br> </span>')
+.pauseFor(800)
+.typeString('<span style="font-family:monospace;">qu\'en gestion de projets grâce à mon master en management et stratégie des PME-PMI.</span>')
+.start()
+
+
+// page realisation
+
+const txtAnim3=document.querySelector('.page_realisation');
+
+ new Typewriter( txtAnim3, {
+    //  loop:true,
+     deleteSpeed: 20
+ })
+
+.changeDelay(20)
+.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.pauseFor(1300)
+.typeString('<span style="font-family:monospace;">vous pouvez consultez ci-dessous </br> </span>')
+.pauseFor(800)
+.typeString('<span style="font-family:monospace;">mes différentes réalisations.</span>')
+.start()
+
+
+
+// page contact
+
+const txtAnim4=document.querySelector('.page_contact');
+
+ new Typewriter( txtAnim4, {
+    //  loop:true,
+     deleteSpeed: 20
+ })
+
+.changeDelay(20)
+.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.pauseFor(1300)
+.typeString('<span style="font-family:monospace;">vous avez un avis ou une proposition de collaboration à me faire?  </br> </span>')
+.pauseFor(800)
+.typeString('<span style="font-family:monospace;">C\'est juste en bas ⬇️, je suis immédiatement disponible!.</span>')
+.start()
+
+
+// page expériences pro
+
+const txtAnim5=document.querySelector('.page_carriere');
+
+ new Typewriter( txtAnim5, {
+    //  loop:true,
+     deleteSpeed: 20
+ })
+
+.changeDelay(20)
+.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.pauseFor(1300)
+.typeString('<span style="font-family:monospace;">j\'ai acquis de mes différentes expériences professionnelles:</br> </span>')
+.pauseFor(1100)
+.typeString('<span style="font-family:monospace;">de la rigueur, le sens de l\'initiative et de l\'entraide en travail d\'équipe!</span>')
+.start()
+

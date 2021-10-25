@@ -30,7 +30,7 @@ const txtAnim=document.querySelector('h5');
  })
 
 .changeDelay(20)
-.typeString('Bonjour, moi c\'est Phyl')
+.typeString('Bonjour, mo')
 .pauseFor(300)
 .typeString('<strong>, Développeur web Front-End </strong> sur les langages :')
 .pauseFor(1000)
