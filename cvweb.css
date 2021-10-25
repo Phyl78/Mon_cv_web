@@ -1,7 +1,13 @@
+*{
+    
+    font-family: 'Lora', serif;
+}
+
 body
 {
     margin: 0px;
     padding: 0px;
+    
 }
 
 .nav-1
@@ -388,7 +394,6 @@ body
     transition: 0.5s ease-in-out;
     
 } 
-
 
 
 
