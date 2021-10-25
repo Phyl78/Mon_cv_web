@@ -223,6 +223,11 @@
 }
 
 
+.mil6{
+    margin-top: 60px;
+}
+
+
 
 .cony{
     margin-left: 10px;
@@ -248,9 +253,10 @@
 
 }
 
-h2 {
-    margin: 30px 415px;
+.contactez_moi {
+    margin: 50px 420px;
     width: 170px;
+    padding-top: 25px;
     /* border: 2px solid yellow; */
 }
 
@@ -931,13 +937,15 @@ main {
 
 }
 
+
+
 #parent{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 55%;
-    margin: auto;
+    margin: 40px auto 0px;
     max-width: 662px;
     min-width: 640px; 
     /* border: 2px solid red; */

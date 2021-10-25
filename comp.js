@@ -78,11 +78,11 @@ const txtAnim=document.querySelector('h5');
  })
 
 .changeDelay(20)
-.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:monospace;">j\'ai fait ici une liste non exhaustive de mes compétences  </br> sur des langages de développement web</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">j\'ai fait ici une liste non exhaustive de mes compétences  </br> sur des langages de développement web</span>')
 .pauseFor(800)
-.typeString('<span style="font-family:monospace;"> en ne reprenant que les plus importantes.</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;"> en ne reprenant que les plus importantes.</span>')
 .start()
 
 
@@ -96,11 +96,11 @@ const txtAnim2=document.querySelector('.page_formation');
  })
 
 .changeDelay(20)
-.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:monospace;">j\'ai un profil aussi bien compétent en développement web  </br> </span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">j\'ai un profil aussi bien compétent en développement web  </br> </span>')
 .pauseFor(800)
-.typeString('<span style="font-family:monospace;">qu\'en gestion de projets grâce à mon master en management et stratégie des PME-PMI.</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">qu\'en gestion de projets grâce à mon master en management et stratégie des PME-PMI.</span>')
 .start()
 
 
@@ -114,11 +114,11 @@ const txtAnim3=document.querySelector('.page_realisation');
  })
 
 .changeDelay(20)
-.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:monospace;">vous pouvez consultez ci-dessous </br> </span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">vous pouvez consultez ci-dessous </br> </span>')
 .pauseFor(800)
-.typeString('<span style="font-family:monospace;">mes différentes réalisations.</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">mes différentes réalisations.</span>')
 .start()
 
 
@@ -133,11 +133,11 @@ const txtAnim4=document.querySelector('.page_contact');
  })
 
 .changeDelay(20)
-.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:monospace;">vous avez un avis ou une proposition de collaboration à me faire?  </br> </span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">vous avez un avis ou une proposition de collaboration à me faire?  </br> </span>')
 .pauseFor(800)
-.typeString('<span style="font-family:monospace;">C\'est juste en bas ⬇️, je suis immédiatement disponible!.</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">C\'est juste en bas ⬇️, je suis immédiatement disponible !.</span>')
 .start()
 
 
@@ -151,10 +151,14 @@ const txtAnim5=document.querySelector('.page_carriere');
  })
 
 .changeDelay(20)
-.typeString('<span style="font-family:monospace;">Bonjour, </span>') 
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:monospace;">j\'ai acquis de mes différentes expériences professionnelles:</br> </span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">j\'ai acquis de mes différentes expériences professionnelles:</br> </span>')
 .pauseFor(1100)
-.typeString('<span style="font-family:monospace;">de la rigueur, le sens de l\'initiative et de l\'entraide en travail d\'équipe!</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;"> la rigueur,</span>')
+.pauseFor(1100)
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;"> le sens de l\'initiative </span>')
+.pauseFor(1100)
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">et de l\'entraide en travail d\'équipe.</span>')
 .start()
 
