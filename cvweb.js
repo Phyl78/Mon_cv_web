@@ -30,7 +30,7 @@ const txtAnim=document.querySelector('h5');
  })
 
 .changeDelay(20)
-.typeString('Bonjour, mo')
+.typeString('Bonjour, moi c\'est Phyl')
 .pauseFor(300)
 .typeString('<strong>, Développeur web Front-End </strong> sur les langages :')
 .pauseFor(1000)
@@ -72,6 +72,7 @@ const friedland = document.querySelector('.im2')
 const carte2= document.querySelector('.exp2')
 const carte3 = document.querySelector('.exp3')
 const grdf = document.querySelector('.im3')
+const scrolled = document.querySelector('.cor')
 
 // animations des formations
 
@@ -131,7 +132,7 @@ const TL4 = new TimelineMax({paused:false})
 
 TL4
 
-.staggerFrom(menu,0.5, {scale:-2})
+.staggerFrom(menu,1,{opacity:0, y:-100})
 
 
 // animations informations d'adresse 
@@ -149,34 +150,13 @@ TL5
 .from (fas3, 1,{opacity:0, x:-100})
 
 
-// .from (menu1,2,{opacity:0, y:-100})
-// .from (menu2,1.6, {opacity:0,y:-100}, '-=0.8.5' )
-// .from (menu3,1.2,{opacity:0, y:-100}, '-=0.6' )
-// .from (menu4,1,{opacity:0, y:-100}, '-=0.3' )
-// .from (menu5,0.8,{opacity:0, y:-100}, '-=0.1' )
+// Début de la fonctionnalité du scroll
 
 
 
 
-// var clare = document.getElementById('alor'); 
-
-// clare.addEventListener('mouseover', function(e){
-//     this.style.border= "2px solid blue";
-// });
-
-// clare.addEventListener('mouseout', function(e){
-//     this.style.border= "none";
-// });
 
 
 
-// var clare = document.getElementById('alor'); 
 
-// clare.addEventListener('mouseover', function(e){
-//     this.style.border= "2px solid grey";
-// });
-
-// clare.addEventListener('mouseout', function(e){
-//     this.style.border= "none";
-// });
 

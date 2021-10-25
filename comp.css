@@ -55,7 +55,7 @@
     flex-direction: row;
 
     position: relative;
-    margin-left: 250px;
+    margin-left: 235px;
     
     /* background-color:#470202; */
     /* background-size: 100%; */
@@ -772,7 +772,7 @@ h2, .dev{
 }
 
 .comb{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 35vw;
     width: 25vw;
     margin-top: 250px;
@@ -844,7 +844,7 @@ main {
     width: 90%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    gap: 1rem;
+    gap: 2rem;
     /* border: 2px solid red; */
 }
 
@@ -861,7 +861,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 50px auto 0;
+    margin: 50px auto 100px;
     width: 70%;
     max-width: 662px;
     min-width: 640px;
@@ -1022,7 +1022,7 @@ main {
     width: 90%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    gap: 1rem;
+    gap: 2rem;
     /* border: 2px solid red; */
 }
 
@@ -1128,4 +1128,52 @@ main {
 
 input{
     font-size: 20px;
+}
+
+
+#icon-menu{
+    visibility: hidden;
+}
+
+#icon-menu2{
+    visibility: hidden;
+}
+
+@media screen and (max-width:945px){
+
+
+    #icon-menu{
+        visibility: visible;
+        color: white;
+        margin-left: 290vw;
+        width: 4vw;
+        min-width: 5vw ;
+        
+    }
+
+    #icon-menu2{
+        visibility: visible;
+        color: black;
+        margin-left: 91.01vw;
+        width: 6vw;
+        height: 7vw;
+    }
+
+    .part3{
+
+        visibility: hidden;
+    } 
+
+    .part2{
+
+        
+        background-size: 920px;
+        
+    } 
+
+    .part2 ul {
+        visibility: hidden;
+    }
+
+    
 }
