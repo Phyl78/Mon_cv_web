@@ -184,9 +184,10 @@
     flex-wrap: wrap;
     width: 95%;
     margin: auto;
-    padding-top: 50px;
+    /* padding-top: 10px; */
     justify-content: space-between;
     /* height: 1050px; */
+    border: 2px solid red;
 
 }
 
@@ -200,11 +201,12 @@ h2{
     /* box-shadow: 0px 7px 18px 3px rgba(0,0,0,0.29); */
     height: 300px;
     width: 350px;
-    margin-top: 30px;
+    /* margin-top: 5px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    border: 2px solid blue;
 
 }
 
