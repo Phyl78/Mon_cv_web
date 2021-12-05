@@ -66,30 +66,30 @@ const txtAnim=document.querySelector('h5');
 
 // animations des expériences professionnelles
 
-const carte1 = document.querySelector('.exp1')
-const caceis= document.querySelector('.im1')
-const friedland = document.querySelector('.im2')
-const carte2= document.querySelector('.exp2')
-const carte3 = document.querySelector('.exp3')
-const grdf = document.querySelector('.im3')
-const scrolled = document.querySelector('.cor')
+// const carte1 = document.querySelector('.exp1')
+// const caceis= document.querySelector('.im1')
+// const friedland = document.querySelector('.im2')
+// const carte2= document.querySelector('.exp2')
+// const carte3 = document.querySelector('.exp3')
+// const grdf = document.querySelector('.im3')
+// const scrolled = document.querySelector('.cor')
 
 // animations des formations
 
-const carte4 = document.querySelector('.child1')
-const lamanu1 = document.querySelector('.child2')
-const lamanu2 = document.querySelector('.child3')
-const carte5 = document.querySelector('.child4')
-const carte6 = document.querySelector('.child5')
-const iae = document.querySelector('.child6')
-const carte7 = document.querySelector('.child8')
-const uca = document.querySelector('.child7')
+// const carte4 = document.querySelector('.child1')
+// const lamanu1 = document.querySelector('.child2')
+// const lamanu2 = document.querySelector('.child3')
+// const carte5 = document.querySelector('.child4')
+// const carte6 = document.querySelector('.child5')
+// const iae = document.querySelector('.child6')
+// const carte7 = document.querySelector('.child8')
+// const uca = document.querySelector('.child7')
 
 
 // animations langue et certification 
 
-const langue = document.querySelector('.toeic')
-const certif = document.querySelector('.amf')
+// const langue = document.querySelector('.toeic')
+// const certif = document.querySelector('.amf')
 
 
 const TL1 = new TimelineMax({paused: false}); 

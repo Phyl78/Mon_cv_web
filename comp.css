@@ -763,6 +763,7 @@ h2, .dev{
     /* background: transparent; */
     transition: all 0.2s ease-in-out;
     color: white;
+    box-shadow: 0 5px 17px rgba(0,0,0,0.6);
     
 
 }

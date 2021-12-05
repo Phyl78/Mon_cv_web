@@ -25,12 +25,12 @@ TL1
 .from (fas3,1,{opacity:0, x:-100})
 
 
-const carte1 = document.querySelector('.exp1')
-const caceis= document.querySelector('.im1')
-const friedland = document.querySelector('.im2')
-const carte2= document.querySelector('.exp2')
-const carte3 = document.querySelector('.exp3')
-const grdf = document.querySelector('.im3')
+// const carte1 = document.querySelector('.exp1')
+// const caceis= document.querySelector('.im1')
+// const friedland = document.querySelector('.im2')
+// const carte2= document.querySelector('.exp2')
+// const carte3 = document.querySelector('.exp3')
+// const grdf = document.querySelector('.im3')
 
 
 const TL2 = new TimelineMax({paused: false}); 

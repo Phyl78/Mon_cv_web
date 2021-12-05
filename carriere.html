@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réalisations</title>
     <link rel="stylesheet" href="comp.css">
+
+    <!-- script animateur des données -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 
@@ -102,12 +107,12 @@
         </div>
 
         <div id="cron">
-            <div class="exp1" style="margin-top:30px;"><br/><strong>&nbsp; </br>&nbsp; Chargé de reporting réglementaire</strong><br/>&nbsp;  Paris<br/>&nbsp; Janvier - Avril 2020</div>
-            <div class="im1"><img src="imagescv/caceis.png" style="height: 100%; width: 100%;" alt="image du logo de Caceis"></div>
-            <div class="im2"><img src="imagescv/Friedland.png"alt="image du logo de Friedland gestion"></div>
-            <div class="exp2"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestionnaire Middle office</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paris<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mars - Septembre 2019</div>
-            <div class="exp3"><strong><span class="descr"></br></br>&nbsp; Assistant manager au déploiement du Lean </br> &nbsp; Management (alternance) </span></strong> <br/>&nbsp;&nbsp;Clermont-Ferrand<br/>&nbsp;&nbsp;Novembre 2017 - Septembre 2018</div>
-            <div class="im3"><img src="imagescv/GRDF.png" style="height:100%; margin: auto 20px; " alt="image du logo de GRDF"></div>
+            <div class="exp1" style="margin-top:30px;" id="experience_reglementaire" data-aos="fade-right" data-aos-delay="0" data-aos-easing="ease-in-out" data-aos-duration="1500"><br/><strong>&nbsp; </br>&nbsp; Chargé de reporting réglementaire</strong><br/>&nbsp;  Paris<br/>&nbsp; Janvier - Avril 2020</div>
+            <div class="im1" data-aos="fade-left" data-aos-delay="500"  data-aos-easing="ease-in-out" data-aos-duration="1500"><img src="imagescv/caceis.png" style="height: 100%; width: 100%;" alt="image du logo de Caceis"></div>
+            <div class="im2" data-aos="fade-right"data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-duration="1500"><img src="imagescv/Friedland.png"alt="image du logo de Friedland gestion"></div>
+            <div class="exp2" data-aos="fade-left" data-aos-delay="1100" data-aos-easing="ease-in-out" data-aos-duration="1500"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestionnaire Middle office</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paris<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mars - Septembre 2019</div>
+            <div class="exp3" data-aos="fade-right"data-aos-delay="1200" data-aos-easing="ease-in-out" data-aos-duration="1500"><strong><span class="descr"></br></br>&nbsp; Assistant manager au déploiement du Lean </br> &nbsp; Management (alternance) </span></strong> <br/>&nbsp;&nbsp;Clermont-Ferrand<br/>&nbsp;&nbsp;Novembre 2017 - Septembre 2018</div>
+            <div class="im3" data-aos="fade-left" data-aos-delay="1200" data-aos-easing="ease-in-out" data-aos-duration="1300"><img src="imagescv/GRDF.png" style="height:100%; margin: auto 20px; " alt="image du logo de GRDF"></div>
         </div>
 
 
@@ -120,17 +125,17 @@
 
         <div class="social">
 
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/phyl-christ-ndembi-2a9062b2/" target="blank_r"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Phyl78?tab=repositories" target="blank_r" ><i class="fab fa-github"></i></a>
 
         </div>
 
         <ul class="list">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">A propos de moi</a></li>
-            <li><a href="#">Mes centres d'intérêts</a></li>
-            <li><a href="#">Mes références</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="cvweb.html">Accueil</a></li>
+            <li><a href="https://1drv.ms/w/s!AqEiruMkyw_dhVDztZFNPgUUJvla?e=1hh714" target="blank_r">Mes références</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="mots"><a href="https://1drv.ms/w/s!AqEiruMkyw_dhVLeOi6LvcmJKa23?e=hYjlDF" target="blank_r"><span style="color: white;"> Mon bénévolat durant mon échange d'études à Séoul </span></a></li>
+            
             
         </ul>
 
@@ -142,5 +147,10 @@
     <!-- <div class="page"> <img src="imagescv/page-en-construction.png.crdownload" class="const" alt=""></div> -->
 
     <script src="comp.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
         </body>
         </html>
