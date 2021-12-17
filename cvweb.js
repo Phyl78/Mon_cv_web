@@ -61,7 +61,7 @@ const txtAnim=document.querySelector('h5');
 .typeString('ou')
 .pauseFor(1000)
 .deleteChars(3)
-.typeString('  en <span style ="color : midnightblue">  Design UI/UX </span> à partir d\'octobre 2021 ! ')
+.typeString('  en <span style ="color : midnightblue">  Design UI/UX </span> dès que possible ! ')
 .start()
 
 // animations des expériences professionnelles
@@ -92,35 +92,35 @@ const txtAnim=document.querySelector('h5');
 // const certif = document.querySelector('.amf')
 
 
-const TL1 = new TimelineMax({paused: false}); 
+// const TL1 = new TimelineMax({paused: false}); 
 
-TL1
-.from (carte1,1,{opacity:0, x:-100})
-.from (caceis,1,{opacity:0, x:100})
-.from (friedland,1,{opacity:0, x:-100})
-.from (carte2,1,{opacity:0, x:100})
-.from (carte3,1,{opacity:0, x:-100})
-.from (grdf,1,{opacity:0, x:100})
-
-
-const TL2 = new TimelineMax({paused: false});
-
-TL2
-.from (carte4,1,{opacity:0, x:-100})
-.from (lamanu1,1,{scale:0}, '-=0.4') 
-.from (lamanu2,1,{scale:0}, '-=0.4') 
-.from (carte5,1,{opacity:0, x:100},'-=0.4')
-.from (carte6,1,{opacity:0, x:-100}, '-=0.4')
-.from (iae,1,{scale:0},'-=0.4')
-.from (uca,1,{scale:0},'-=0.4')
-.from (carte7,1,{opacity:0, x:100},'-=0.4')
+// TL1
+// .from (carte1,1,{opacity:0, x:-100})
+// .from (caceis,1,{opacity:0, x:100})
+// .from (friedland,1,{opacity:0, x:-100})
+// .from (carte2,1,{opacity:0, x:100})
+// .from (carte3,1,{opacity:0, x:-100})
+// .from (grdf,1,{opacity:0, x:100})
 
 
-const TL3 = new TimelineMax({paused: false});
+// const TL2 = new TimelineMax({paused: false});
 
-TL3
-.from (langue,1,{opacity:0, y:-100})
-.from (certif,1,{opacity:0 , y:100})
+// TL2
+// .from (carte4,1,{opacity:0, x:-100})
+// .from (lamanu1,1,{scale:0}, '-=0.4') 
+// .from (lamanu2,1,{scale:0}, '-=0.4') 
+// .from (carte5,1,{opacity:0, x:100},'-=0.4')
+// .from (carte6,1,{opacity:0, x:-100}, '-=0.4')
+// .from (iae,1,{scale:0},'-=0.4')
+// .from (uca,1,{scale:0},'-=0.4')
+// .from (carte7,1,{opacity:0, x:100},'-=0.4')
+
+
+// const TL3 = new TimelineMax({paused: false});
+
+// TL3
+// .from (langue,1,{opacity:0, y:-100})
+// .from (certif,1,{opacity:0 , y:100})
 
 
 // animation de la barre de navigation 

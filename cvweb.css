@@ -1,14 +1,16 @@
-*{
+*,
+    ::before, ::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     
     font-family: 'Lora', serif;
 }
 
-body
-{
-    margin: 0px;
-    padding: 0px;
-    
+body {
+    /* border: 2px solid blue; */
 }
+
 
 .nav-1
 {
@@ -190,7 +192,8 @@ body
     justify-content: space-between;
     width: 60%;
     margin: auto;
-        
+    /* border: 2px solid blue; */
+   
 }
  
 #icon-menu{
@@ -201,23 +204,6 @@ body
     visibility: hidden;
 }
 
-@media screen and (max-width:598px) {
-
-    
-    
-    .titre{
-
-        height:300px ;
-        min-height: 290px;
-        
-        
-        
-    }
-}
-
-/* .fas.fa-info-circle{
-    width: 60px;
-} */
 
 
 @media screen and (max-width:945px){
@@ -278,18 +264,11 @@ body
     }
     
 
-    /* .lc{
-        display: flex;
-        flex-direction: column;
-    } */
    
 
 }
 
-@media screen and (max-width:738px){
 
-
-}
 
 .containerB
 {
@@ -297,6 +276,7 @@ body
     justify-content: space-between;
     width: 60%;
     margin: auto;
+    /* border: 2px solid green; */
 }
 
 
@@ -308,6 +288,7 @@ body
     margin: auto;
     padding-bottom: 20px;
     border-bottom: 2px solid black;
+    /* border: 2px solid red; */
     
 }
 
@@ -583,7 +564,7 @@ body
     margin: auto;
     width: 70%;
     max-width: 662px;
-    min-width: 640px;
+    /* min-width: 640px; */
     /* border: 2px solid yellow; */
     height: 450px;
    
@@ -740,9 +721,8 @@ body
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 55%;
+    width: 53%;
     margin: auto;
-    max-width: 662px;
     min-width: 640px; 
     /* border: 2px solid red; */
 }
@@ -1240,150 +1220,313 @@ body
 
     background-image: url(imagescv/carre.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 170%;
     width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    
 
 }
 
-.titre
-{
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    justify-content: center;
+
+
+/* media query small */
+
+@media screen and (max-width:670px ) and (min-width:340px ) {
+
+    .exp1{
+        height: 60px;
+        width: 170px;
+        background-size: 170px;
+        font-size: 1.4vw;
+       
+    }
+    
+   
+
+    .im1{
+    
     margin: auto;
-    min-width: 640px;
-    height: 360px;
-    width: 80%;
-    
-}
-
-
-.myform3
-{
-    display: flex;
-    margin-left: 47px;
-    padding-top: 20px;
-}
-
-@media screen and (max-width:768px ) {
-
-    /* .titre{
-        grid-template-columns: 1fr;
-
-        height: 300px;
-        min-height:350px ;
+    padding-bottom: 35px;
+    height: 75px;
+    width: 100px;
+    /* border: 2px solid blue; */
     }
 
-    .border8{
-        height: 10vw;
-        min-height: 30px;
-    } */
-
-   /* #cron{
-       margin-right: auto;
-       border: 2px solid red;
-   } */
+    .im2{
     
-    .myform3{
-        display: flex;
-        flex-direction: column;
+        margin: 0 auto 10px;
+        height: 75px;
+        width: 110px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .exp2{
+            height: 60px;
+            width: 170px;
+            background-size: 170px;
+            padding-top: 10px;
+            font-size: 1.4vw;
+            /* border: 2px solid blue; */
+        }
+
+        .exp3{
+            height: 60px;
+            width: 170px;
+            background-size: 170px;
+            font-size: 1.2vw;
+           
+        }
+
+        .im3{
+    
+            margin: 10px auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 58px;
+            width: 110px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+                width: 340px;
+               min-width: 300px;
+                /* border: 2px solid purple; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+}
+
+/* media query middle  */
+
+@media screen and (max-width:950px ) and (min-width:886px ) {
+
+    .exp1{
+        height: 120px;
+        width: 320px;
+        background-size: 320px;
+        font-size: 1.5vw;
+    }
+    
+    .im1{
+    
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 180px;
+    /* border: 2px solid blue; */
     }
 
+    .im2{
     
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 190px;
 
-}
+        /* border: 2px solid blue; */
+        }
 
-/* A voir ce que je peux en faire */
-.borde
-{
-    margin-right: 100px;
+        .exp2{
+            height: 100px;
+            width: 320px;
+            background-size: 320px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .exp3{
+            height: 100px;
+            width: 320px;
+            background-size: 340px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
     
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 130px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+               min-width: 400px;
+                /* border: 2px solid green; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
 }
 
-.border1
-{
+    /* media query small */
+
+@media screen and (max-width:886px ) and (min-width:832px ) {
+
+    .exp1{
+        height: 120px;
+        width: 300px;
+        background-size: 300px;
+        font-size: 1.5vw;
+    }
     
-    margin-top: 30px;
-}
-
-.lab1
-{
-    /* /* margin-right: -90px;
-    width: 100px; */
-} 
-
-.lab2
-{
-    /* margin-right: -40px; */
-}
-
-.border2
-{
-    /* margin-left: -55px;   */
-}
-
-.border3
-{
-    /* margin-left: -80px;  */
-     
-}
-
-
-.borde4
-{
-    /* margin-right: 290px;
-    margin-left: -115px; */
-}
-
-.border7 
-{
-    margin-bottom: 20px;
-}
-
-
-
-
-.obj1
-{
-    /* /* margin-right: 140px;
-    margin-left: -375px;
-    padding-left: 30px; */
+    .im1{
     
-} 
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 180px;
+    /* border: 2px solid blue; */
+    }
 
-.obj2
-{
-    margin-top: 15px;
+    .im2{
     
-}
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 180px;
 
-.ob 
-{
-    margin-left: -20px;
-}
+        /* border: 2px solid blue; */
+        }
 
-.obj3
-{
-    margin-right: -120px;
-}
+        .exp2{
+            height: 100px;
+            width: 300px;
+            background-size: 300px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
 
-.border6
-{
-    /* margin-left: -90px; */
+        .exp3{
+            height: 100px;
+            width: 300px;
+            background-size: 300px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
     
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 100px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+               min-width: 400px;
+                /* border: 2px solid violet; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
 }
+
+
+
+/* media query x small */
+
+@media screen and (max-width:832px ) and (min-width:670px ) {
+
+    .exp1{
+        height: 120px;
+        width: 280px;
+        background-size: 280px;
+        font-size: 1.5vw;
+    }
+    
+    .im1{
+    
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 130px;
+    /* border: 2px solid blue; */
+    }
+
+    .im2{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 130px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .exp2{
+            height: 100px;
+            width: 240px;
+            background-size: 280px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .exp3{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
+    
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 100px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+                width: 510px;
+               min-width: 300px;
+                /* border: 2px solid teal; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+
 
 .footer
 {
     background-image: url(imagescv/abstract2.jpg);
     background-repeat: no-repeat;
-    background-size: 1400px;
-    max-height:200px;
-    min-width: 640px;
+    width:100%;
+    height: auto;
+    background-size: 170%;
+    /* border: 2px solid red; */
+    
     
 }
+
 
 .footer .social{
 
@@ -1495,3 +1638,286 @@ body
 
 
 
+/* media query middle partie formation  */
+
+@media screen and (max-width:980px ) {
+
+    .child1{
+        height: 120px;
+        width: 280px;
+        background-size: 280px;
+        font-size: 1.7vw;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 190px;
+    width: 180px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 190px;
+        width: 180px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .child5{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            font-size: 1.5vw;
+            
+        }
+
+        .child6{
+    
+            margin: 0 auto 20px;
+            height: 120px;
+            width: 190px;
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: 10 auto 20px;
+                height: 70px;
+                width: 190px;
+                /* border: 2px solid red; */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    /* padding-right: 50px; */
+                    height: 100px;
+                    width: 280px;
+                    background-size: 280px;
+                    font-size: 1.5vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                min-width: 600px;
+                /* border: 2px solid green; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+@media screen and (max-width: 617px){
+    
+    .child1{
+        height: 90px;
+        width: 220px;
+        background-size: 220px;
+        font-size: 2vw;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 150px;
+        width: 150px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 90px;
+        width: 220px;
+        background-size: 220px;
+            padding-top: 20px;
+            font-size: 2vw;
+            
+        /* border: 2px solid blue; */
+        }
+
+        .child5{
+            height: 90px;
+        width: 220px;
+        background-size: 220px;
+            font-size: 2vw;
+            
+        }
+
+        .child6{
+    
+            margin: 0 auto 20px;
+            padding-left: -3px;
+            height: 110px;
+            width: 180px;
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: 15px auto 8px;
+                padding-top: 40px;
+                /* padding-right: 50px; */
+                height: 90px;
+                width: 180px;
+                /* border: 2px solid red; */
+
+                /*  mettre un padding top et ensuite un augmenté la taille de div permet de mettre l'image bien au milieu */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    /* padding-right: 50px; */
+                    height: 90px;
+                    width: 220px;
+                    background-size: 220px;
+                    font-size: 2vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                min-width: 470px;
+                /* border: 2px solid yellow; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+
+@media screen and (max-width: 486px) and (min-width: 340px) {
+    
+    .child1{
+        height: 80px;
+        width: 160px;
+        background-size: 160px;
+        font-size: 2vw;
+        padding-top: 5px;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 130px;
+    width: 110px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: auto ;
+        height: 130px;
+        width: 120px;
+        padding-bottom: 10px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 80px;
+            width: 150px;
+            background-size: 150px;
+            font-size: 2vw;
+           
+            
+        /* border: 2px solid blue; */
+        }
+
+        .child5{
+            height: 80px;
+            width: 160px;
+            background-size: 160px;
+            font-size: 2vw;
+            padding-top: 5px;
+            
+        }
+
+        .child6{
+    
+            margin: 0 auto 0;
+            height: 100px;
+            width: 150px;
+            padding-bottom: 7px;
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: auto;
+                height: 70px;
+                width: 150px;
+                /* border: 2px solid red; */
+
+                /*  mettre un padding top et ensuite un augmenté la taille de div permet de mettre l'image bien au milieu */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    height: 80px;
+                    width: 150px;
+                    background-size: 150px;
+                    font-size: 2vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                width: 350px;
+                min-width: 340px;
+                /* border: 2px solid teal; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+
+           
+           
+
+}
