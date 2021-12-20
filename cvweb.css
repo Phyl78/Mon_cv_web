@@ -1242,7 +1242,8 @@ body {
         height: 60px;
         width: 170px;
         background-size: 170px;
-        font-size: 1.4vw;
+        font-size: 1.6vw;
+        
        
     }
     
@@ -1270,16 +1271,19 @@ body {
             height: 60px;
             width: 170px;
             background-size: 170px;
-            padding-top: 10px;
-            font-size: 1.4vw;
+            padding-top: 5px;
+            font-size: 1.8vw;
             /* border: 2px solid blue; */
         }
 
         .exp3{
-            height: 60px;
-            width: 170px;
-            background-size: 170px;
-            font-size: 1.2vw;
+            height: 65px;
+            width: 178px;
+            background-size: 178px;
+            font-size: 1.3vw;
+             /* border: 2px solid blue; */
+             padding-bottom: 10px;
+          
            
         }
 
@@ -1298,7 +1302,7 @@ body {
 
                 width: 340px;
                min-width: 300px;
-                /* border: 2px solid purple; */
+                /* border: 2px solid red; */
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -1440,7 +1444,7 @@ body {
             #cron {
 
                min-width: 400px;
-                /* border: 2px solid violet; */
+                /* border: 2px solid teal; */
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -1512,7 +1516,7 @@ body {
 
                 width: 510px;
                min-width: 300px;
-                /* border: 2px solid teal; */
+                /* border: 2px solid yellow; */
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
