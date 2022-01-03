@@ -153,8 +153,14 @@ TL5
 // Début de la fonctionnalité du scroll
 
 
+// annimation menu burger
 
+const burger = document.querySelector('.burger'); 
 
+burger.addEventListener('click', ()=>{
+
+    burger.classList.toggle('active');
+});
 
 
 
